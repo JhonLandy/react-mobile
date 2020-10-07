@@ -8,6 +8,9 @@
       "target": "https://data.miaov.com/",
       "changeOrigin": true,
       "secure": true,
+      "pathRewrite": {
+        "^/miaov":""
+      },
       "cookieDomainRewrite":"https://data.miaov.com/"
     }
   },
