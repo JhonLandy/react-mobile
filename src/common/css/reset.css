@@ -1,0 +1,109 @@
+@font-face {
+  font-family: fzlt;
+  src: url("../font/方正兰亭纤黑_GBK.TTF");
+}
+@font-face {
+  font-family: pingfang;
+  src: url("../font/PingFang_Bold.ttf");
+}
+@font-face {
+  font-family: "iconfont";
+  src:
+  url('../font/iconfont.ttf?t=1528878976361') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1528878976361#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+}
+.icon-kecheng:before { content: "\e607"; }
+.icon-dianhua:before { content: "\e701"; }
+.icon-zuanshi:before { content: "\e7ad"; }
+.icon-hycaidan:before { content: "\e62e"; }
+.icon-tuijian:before { content: "\e679"; }
+.icon-laoshishi:before { content: "\e632"; }
+.icon-back:before { content: "\e619"; }
+.icon-tuijian1:before { content: "\e650"; }
+.icon-kefu:before { content: "\e7ae"; }
+.icon-authcode:before { content: "\e688"; }
+.icon-denglu:before { content: "\e608"; }
+.icon-wendacopy:before { content: "\e87a"; }
+.icon-xingzhengguanli:before { content: "\e600"; }
+.icon-liuyan:before { content: "\e60b"; }
+.icon-xiaoxi:before { content: "\e61a"; }
+.icon-peixunjiangshi:before { content: "\e61e"; }
+.icon-youxiang:before { content: "\e605"; }
+.icon-home:before { content: "\e622"; }
+.icon-mima:before { content: "\e601"; }
+.icon-dengluming:before { content: "\e623"; }
+body {
+  font-family: Helvetica;
+  margin: 0;
+  color: #000;
+}
+body * {
+  -webkit-text-size-adjust: 100%;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+strong {
+  font-weight: normal;
+}
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  outline: none;
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+figure {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+img {
+  vertical-align: top;
+  border: none;
+}
+input {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  vertical-align: top;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 0;
+  font-weight: normal;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}

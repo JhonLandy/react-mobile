@@ -1,0 +1,188 @@
+#header {
+  height: 1.2rem;
+  background: #323436;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.pageWrap {
+  position: relative;
+  z-index: 1;
+  background: #f2f9fc;
+  /*transition: .5s transform;*/
+  height: 100%;
+  overflow: hidden;
+}
+/*.menu {*/
+/*  position: absolute;*/
+/*  width: 0.53333333rem;*/
+/*  height: 0.46666667rem;*/
+/*  left: 0.26666667rem;*/
+/*  top: 0.37333333rem;*/
+/*}*/
+/*.menu a {*/
+/*  text-indent: -999px;*/
+/*  overflow: hidden;*/
+/*  display: block;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  background: url("../images/icon_menu.png") no-repeat;*/
+/*  background-size: 100% 100%;*/
+/*}*/
+.header-btn-left, .header-btn-right {
+  position: absolute;
+  top: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  color: #d1d1d1;
+  line-height: 1.2rem;
+}
+.header-btn-right {
+  right: 0;
+  font-size: .3rem;
+
+}
+.header-btn-left {
+  left: 0;
+  font-size: .7rem;
+}
+.header-logout-btn {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  top: 1.2rem;
+  text-align: center;
+  font: .3rem/.8rem "宋体";
+  background: #323436;
+}
+.header-logout-btn {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  top: 1.2rem;
+  text-align: center;
+  font: .3rem/.8rem "宋体";
+  background: #323436;
+}
+.logo {
+  width: 2.44rem;
+  height: 0.58666667rem;
+  margin: 0 auto;
+  padding: 0.30666667rem 0.93333333rem 0;
+  background: url("../images/logo.png") no-repeat;
+  background-origin: content-box;
+  background-size: 100% auto;
+  text-indent: -999px;
+  overflow: hidden;
+}
+.user {
+  width: 0.66666667rem;
+  height: 0.70666667rem;
+  position: absolute;
+  top: 0.22666667rem;
+  right: 0.26666667rem;
+  background: url("../images/icon_user.png") no-repeat;
+  background-size: 100% auto;
+}
+.pageWrap {
+  position: relative;
+  z-index: 1;
+  background: #f2f9fc;
+  transition: .5s transform;
+}
+#main {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  padding-top: 1.2rem;
+}
+#footer {
+  background: #323436;
+  padding-top: 0.06666667rem;
+}
+.copyright {
+  text-align: center;
+  font: 0.29333333rem / 0.90666667rem "微软雅黑";
+  color: #868b8d;
+  height: 0.98666667rem;
+  background: #2d2f30;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.link {
+  font: 0.32rem / 1.10666667rem fzlt;
+  padding: 0 0.26666667rem;
+}
+.link a {
+  color: #fff;
+}
+.link a:nth-of-type(1) {
+  float: left;
+  padding-right: 0.42666667rem;
+}
+.link a:nth-of-type(1)::before {
+  content: '';
+  width: 0.48rem;
+  height: 0.38666667rem;
+  display: inline-block;
+  vertical-align: top;
+  background: url('../images/teacher_email.png') no-repeat 0 0 / 100% 100%;
+  margin: 0.37333333rem 0.30666667rem 0 0.58666667rem;
+}
+.link a:nth-of-type(2) {
+  float: left;
+}
+.link a:nth-of-type(2)::before {
+  content: '';
+  width: 0.42666667rem;
+  height: 0.45333333rem;
+  display: inline-block;
+  background: url('../images/teacher_phone.png') no-repeat 0 0 / 100% 100%;
+  vertical-align: top;
+  margin: 0.33333333rem 0.21333333rem 0 0.58666667rem;
+}
+.foot_nav {
+  padding: 0 0.26666667rem 0.34666667rem;
+}
+.foot_nav a {
+  float: left;
+  width: 2.36rem;
+  font: 0.32rem / 0.62666667rem "微软雅黑";
+  color: #adaeae;
+  text-align: center;
+  background: url('../images/line.jpg') no-repeat right center / 0.02666667rem 0.34666667rem;
+}
+.foot_nav a:nth-of-type(4) {
+  background: none;
+}
+#menu {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 1.2rem .5rem;
+  width: 4.5rem;
+  height: 100vh;
+  background: url("../images/menu.png") no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+#menu a {
+  display: block;
+  font: .3rem/.9rem "宋体";
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  color: rgba(255, 255, 255, .8);
+}
+#menu a:before {
+  font-size: .4rem;
+  margin: 0 .1rem;
+  color: rgba(255, 255, 255, .6);
+  vertical-align: middle;
+}
+#menu a:first-child {
+  border-top: 1px solid rgba(255, 255, 255, .3);
+}

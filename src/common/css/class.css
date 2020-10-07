@@ -1,0 +1,101 @@
+.class_css {
+  background: #3189ce url('../images/class_bg.jpg') no-repeat 0 0 / 100% 100%;
+  overflow: hidden;
+  padding: 0 0.26666667rem;
+  height: 100%;
+}
+.class_box {
+  background: #3189ce url('../images/class_bg.jpg') no-repeat 0 0 / 100% 100%;
+  overflow: hidden;
+  padding: 0 0.26666667rem;
+  height: 100%;
+}
+.class_box h2 {
+  width: 3.78666667rem;
+  height: 1.01333333rem;
+  background: url('../images/class_week.png') no-repeat 0 0 / 100% 100%;
+  margin: 0.66666667rem auto 0.82666667rem;
+}
+.class_box h2 span {
+  display: none;
+}
+.timetable {
+  width: 100%;
+  color: #3a3a3a;
+  font: 0.34666667rem "宋体";
+}
+.timetable thead {
+  background: rgba(206, 115, 175, 0.5);
+  color: #fff;
+  font: 0.32rem fzlt;
+}
+.timetable thead th {
+  height: 0.69333333rem;
+}
+.timetable thead th:nth-of-type(1) {
+  width: 1.85333333rem;
+}
+.timetable thead th:nth-of-type(2) {
+  width: 2.61333333rem;
+}
+.timetable thead th:nth-of-type(3) {
+  width: 5.05333333rem;
+}
+.timetable tbody {
+  background: #fff;
+}
+.timetable td {
+  border: 2px solid #ce73af;
+}
+.timetable td[rowspan="2"] {
+  height: 1.54666667rem;
+  text-align: center;
+  text-indent: -999px;
+  overflow: hidden;
+}
+.timetable .single td:nth-of-type(1) {
+  height: 0.88rem;
+  text-indent: -999px;
+  overflow: hidden;
+}
+.center {
+  text-align: center;
+}
+.content_td {
+  text-indent: 0.76rem;
+}
+.week1 {
+  background: #faf1f7 url('../images/week1.png') no-repeat center / 0.94666667rem 0.37333333rem;
+}
+.week2 {
+  background: #fcf8f2 url('../images/week2.png') no-repeat center / 0.94666667rem 0.37333333rem;
+}
+.week3 {
+  background: #f3f8ef url('../images/week3.png') no-repeat center / 0.94666667rem 0.37333333rem;
+}
+.week4 {
+  background: #f3f8ef url('../images/week4.png') no-repeat center / 0.98666667rem 0.37333333rem;
+}
+.week5 {
+  background: #f0f1fb url('../images/week5.png') no-repeat center / 0.98666667rem 0.38666667rem;
+}
+.week6 {
+  background: #fcf0f0 url('../images/week6.png') no-repeat center / 0.98666667rem 0.4rem;
+}
+.more_message {
+  text-align: center;
+  padding-top: 0.09333333rem;
+  font: 0.34666667rem / 1.42666667rem fzlt;
+  color: #fff;
+}
+.more_message a {
+  display: inline-block;
+  width: 3.86666667rem;
+  background: #fff;
+  color: #2f88cd;
+  font-size: 0.4rem;
+  line-height: 0.66666667rem;
+  border-radius: 0.4rem;
+  vertical-align: top;
+  margin-top: 0.36rem;
+}
