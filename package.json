@@ -3,17 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
-  "proxy": {
-    "/miaov": {
-      "target": "https://data.miaov.com/",
-      "changeOrigin": true,
-      "secure": true,
-      "pathRewrite": {
-        "^/miaov":""
-      },
-      "cookieDomainRewrite":"https://data.miaov.com/"
-    }
-  },
   "dependencies": {
     "axios": "^0.19.2",
     "better-scroll": "^1.15.2",
