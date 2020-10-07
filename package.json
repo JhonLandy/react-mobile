@@ -2,7 +2,7 @@
   "name": "ycl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "react-mobile",
+  "homepage": ".",
   "dependencies": {
     "axios": "^0.19.2",
     "better-scroll": "^1.15.2",
