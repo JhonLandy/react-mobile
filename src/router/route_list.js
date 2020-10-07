@@ -7,7 +7,7 @@ import Work from '../views/work/index';
 const routeList = [
     {
         name: "首页",
-        path: "/react-mobile",
+        path: "/react-mobile/",
         exact: true,
         render(props){
             return <Index {...props}/>;
@@ -47,7 +47,7 @@ const routeList = [
 const nav = [
     {
         name: "首页",
-        path: "/react-mobile",
+        path: "/react-mobile/",
         exact: true,
         className: "iconfont icon-home"
     },{
