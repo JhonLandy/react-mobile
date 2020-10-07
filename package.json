@@ -2,10 +2,11 @@
   "name": "ycl",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "react-mobile",
   "dependencies": {
     "axios": "^0.19.2",
     "better-scroll": "^1.15.2",
+    "http-proxy-middleware": "^1.0.1",
     "proxy": "^1.0.1",
     "qs": "^6.9.1",
     "react": "^16.13.0",
@@ -19,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-app-rewired build",
-    "test": "react-scripts test",
+    "test":  "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -38,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "http-proxy-middleware": "^1.0.5",
     "react-app-rewired": "^2.1.6",
     "redux-devtools-extension": "^2.13.8"
   }
