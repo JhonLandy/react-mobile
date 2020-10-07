@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-mobile/static/css/main.d7e17a66.chunk.css",
-    "main.js": "/react-mobile/static/js/main.24f43141.chunk.js",
-    "main.js.map": "/react-mobile/static/js/main.24f43141.chunk.js.map",
+    "main.js": "/react-mobile/static/js/main.72005c35.chunk.js",
+    "main.js.map": "/react-mobile/static/js/main.72005c35.chunk.js.map",
     "runtime-main.js": "/react-mobile/static/js/runtime-main.2038da3f.js",
     "runtime-main.js.map": "/react-mobile/static/js/runtime-main.2038da3f.js.map",
     "static/js/2.9a8d7cf2.chunk.js": "/react-mobile/static/js/2.9a8d7cf2.chunk.js",
     "static/js/2.9a8d7cf2.chunk.js.map": "/react-mobile/static/js/2.9a8d7cf2.chunk.js.map",
     "index.html": "/react-mobile/index.html",
-    "precache-manifest.2eff432c4f8f610da119c65d855c92f2.js": "/react-mobile/precache-manifest.2eff432c4f8f610da119c65d855c92f2.js",
+    "precache-manifest.5ddd8f3348b839df412c5ff527721b4d.js": "/react-mobile/precache-manifest.5ddd8f3348b839df412c5ff527721b4d.js",
     "service-worker.js": "/react-mobile/service-worker.js",
     "static/css/main.d7e17a66.chunk.css.map": "/react-mobile/static/css/main.d7e17a66.chunk.css.map",
     "static/js/2.9a8d7cf2.chunk.js.LICENSE.txt": "/react-mobile/static/js/2.9a8d7cf2.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.2038da3f.js",
     "static/js/2.9a8d7cf2.chunk.js",
     "static/css/main.d7e17a66.chunk.css",
-    "static/js/main.24f43141.chunk.js"
+    "static/js/main.72005c35.chunk.js"
   ]
 }
