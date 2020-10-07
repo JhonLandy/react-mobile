@@ -7,7 +7,7 @@ import Work from '../views/work/index';
 const routeList = [
     {
         name: "首页",
-        path: "/react-mobile",
+        path: "/",
         exact: true,
         render(props){
             return <Index {...props}/>;
@@ -15,28 +15,28 @@ const routeList = [
     },
     {
         name: "登录",
-        path: "/react-mobile/login",
+        path: "/login",
         exact: true,
         render(props){
             return <Login {...props}/>;
         }
     },{
         name: "课程安排",
-        path: "/react-mobile/course",
+        path: "/course",
         exact: true,
         render(props){
             return <Course {...props}/>;
         }
     },{
         name: "讲师团队",
-        path: "/react-mobile/teacher",
+        path: "/teacher",
         exact: true,
         render(props){
             return <Teacher {...props}/>;
         }
     },{
         name: "作品详情",
-        path: "/react-mobile/work/:id",
+        path: "/work/:id",
         exact: true,
         render(props){
             return <Work {...props}/>;
@@ -47,17 +47,17 @@ const routeList = [
 const nav = [
     {
         name: "首页",
-        path: "/react-mobile",
+        path: "/",
         exact: true,
         className: "iconfont icon-home"
     },{
         name: "课程安排",
-        path: "/react-mobile/course",
+        path: "/course",
         exact: true,
         className: "iconfont icon-kecheng"
     },{
         name: "讲师团队",
-        path: "/react-mobile/teacher",
+        path: "/teacher",
         exact: true,
         className: "iconfont icon-peixunjiangshi"
     }
